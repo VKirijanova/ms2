@@ -28,16 +28,17 @@
 </script>
   </head>
   <body>
-    <div class="container">
+    <div class="container-fluid">
       <div id="end" class="flex-center flex-column">
         <div class="row">
           <h1 class="col">You score:</h1>
           <h1 class="col" id="finalScore">0</h1>
         </div>
         <div class="form-row text-center">
-        <a href="/game.html" class="btn btn-secondary">Try again</a>
-    </div>
-        <div class="center-form">
+        <a href="game.html" class="btn btn-secondary">Try again</a>
+        </div>
+      </div>
+        <div class=" center-form">
             <form onsubmit="return sendMail(this);">
                 <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
                 <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
@@ -49,7 +50,6 @@
                 </div>
             </form>
         </div>
-    </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"

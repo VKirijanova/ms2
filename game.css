@@ -64,10 +64,75 @@ h1 {
   background: #f3d9b1;
 }
 
-@media (min-width: 992px) {
-  .container {
+@media (min-width: 991.98px) {
+    .container-fluid {
+        margin-left: 5rem;
+    }
+
+    .choice-container {
+  font-size: 2rem;
+  height: 7rem;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  border-radius: 3px;
+}
+h1 {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.hud-prefix {
+  margin-top: 6rem;
+  font-size: 2.5rem;
+  margin-left: 8rem;
+}
+
+#progressBar {
+  border: 0.6rem solid #f3d9b1;
+  border-radius: 30px;
+  height: 2rem;
+  width: 35rem;
+  overflow: hidden;
+  margin-left: 8rem;
+}
+
+
+}
+
+@media (min-width: 1199.98px) {
+  .container-fluid {
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 10rem;
   }
+
+  .choice-container {
+  font-size: 3rem;
+  height: 10rem;
+  margin-bottom: 2.5rem;
+  padding-top: 1.8rem;
+  border-radius: 6px;
+}
+
+h1 {
+    font-size: 5rem;
+    padding-bottom: 5rem;
+    margin-top: 1rem;
+}
+
+.hud-prefix {
+  margin-top: 9rem;
+  font-size: 4rem;
+  margin-left: 12rem;
+}
+
+#progressBar {
+  border: 0.8rem solid #f3d9b1;
+  border-radius: 50px;
+  height: 3rem;
+  width: 50rem;
+  overflow: hidden;
+  margin-left: 12rem;
+}
 }

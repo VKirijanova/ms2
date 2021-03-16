@@ -71,7 +71,7 @@ btn:disabled:hover {
 }
 
 @media (min-width: 768px) {
-  .container {
+  .container-fluid {
     margin-left: 0.8rem;
     margin-top: 23rem;
   }
@@ -82,9 +82,79 @@ btn:disabled:hover {
 }
 
 @media (min-width: 992px) {
-  .container {
+  .container-fluid {
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 10rem;
+    margin-right: 5rem;
+    padding-top: 10rem;
+    padding-right: 5rem;
   }
+
+  .btn-secondary {
+        padding: 0.5rem;
+        width: 15rem;
+        margin-top: 0rem;
+  }
+  #end .col {
+        font-size: 4rem;
+        height: fit-content;
+    }
+
+    #end .row {
+        padding-top: 0;
+        padding-bottom: 10rem;
+        margin-bottom: 3rem;
+        height: 6rem;
+        display: block;
+    }
+
+   .form-control {
+       font-size:2rem;
+       margin-bottom: 0;
+       padding-bottom: 0;
+       
+   }
+
+    .center-form {
+        font-size: 8rem;
+    }
+
 }
+
+@media (min-width: 1199.98px) {
+    .btn-secondary {
+        padding: 2rem;
+        width: 20rem;
+        margin-top: 0rem;
+    }
+
+    #end .col {
+        font-size: 8rem;
+        height: fit-content;
+    }
+
+    #end .row {
+        padding-top: 0;
+        padding-bottom: 20rem;
+        margin-bottom: 5rem;
+        height: 10rem;
+        display: block;
+}
+    .container-fluid {
+        padding-top: 6rem;
+        padding-bottom: 8rem;
+    }
+
+   .form-control {
+       font-size:2rem;
+       margin-bottom: 0;
+       padding-bottom: 0;
+       
+   }
+
+    .center-form {
+        font-size: 10rem;
+    }
+}
+
+
