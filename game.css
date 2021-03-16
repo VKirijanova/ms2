@@ -64,7 +64,7 @@ h1 {
   background: #f3d9b1;
 }
 
-/*@media (min-width: 992px) {
+@media (min-width: 992px) {
   .container {
     margin-top: 0;
     margin-bottom: 0;
